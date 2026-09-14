@@ -1,0 +1,10 @@
+#go in to root user
+#pico Find_Unathurized_Files.sh
+
+
+cd /home/
+find . -type f -name “*.mp3”
+
+
+#chmod +x Find_Unathurized_Files.sh
+#./Find_Unathurized_Files.sh
